@@ -170,11 +170,10 @@ Este repo forma parte de mi proceso de aprendizaje en desarrollo **fullstack** u
 
 ¡Que te sea útil para mejorar tu entorno de desarrollo en Linux y WSL! 🚀
 
-
-
-
-
-
+[![WSL2](https://img.shields.io/badge/WSL2-Ubuntu-0db7ed.svg?logo=ubuntu&logoColor=white)](https://learn.microsoft.com/es-es/windows/wsl/)
+[![SSHFS](https://img.shields.io/badge/SSHFS-15A5D9.svg?logo=linux&logoColor=white)](https://github.com/libfuse/sshfs)
+[![Windows 11](https://img.shields.io/badge/Windows-10_11-00CC6A.svg?logo=windows11&logoColor=white)](https://www.microsoft.com/es-cl/windows/windows-11)
+![GitHub Pages](https://img.shields.io/badge/GitHub-brightgreen.svg?logo=github)
 
 
 
