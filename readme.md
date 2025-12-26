@@ -75,8 +75,7 @@ exit 1
 fi
 
 #### Evitar montar dos veces
-- if mountpoint -q "$LOCAL_DIR"; then echo "✅ Ya está montado en $LOCAL_DIR" exit 0 fi
-- sshfs -o idmap=user - "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR" $LOCAL_DIR" && echo "✅ Montado en $LOCAL_DIR"
+- if mountpoint -q "$LOCAL_DIR"; then echo "✅ Ya está montado en $LOCAL_DIR" exit 0 fi sshfs -o idmap=user - "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR" $LOCAL_DIR" && echo "✅ Montado en $LOCAL_DIR"
 
 #### Dar permisos de ejecución:
 - chmod +x ~/montar_proyecto.sh
